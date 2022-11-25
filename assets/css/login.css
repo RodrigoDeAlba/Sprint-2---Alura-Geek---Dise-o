@@ -1,0 +1,45 @@
+.formulario {
+    background: #E5E5E5;
+
+    padding: 91px 0;
+}
+
+.formulario-container {
+    text-align: center;
+}
+
+.titulo-login {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #464646;   
+}
+
+.input-container {
+    padding: 16px 0;
+}
+
+.input {
+    padding-left: 10px;
+    width: 413px;
+    height: 63.13px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.login-btn {
+    box-sizing: border-box;
+    border: 1px solid #2a7ae4;
+    color: #FFFFFF;
+    width: 423px;
+    height: 62px;
+    background: #2A7AE4;
+    border-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}

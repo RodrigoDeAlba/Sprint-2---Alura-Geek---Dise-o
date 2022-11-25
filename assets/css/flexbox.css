@@ -1,0 +1,190 @@
+
+//HEADER//
+
+.container {
+    display: flex;
+}
+
+.cabecera {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.cabecera-logo {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+.barra-de-busqueda {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#btnLogin {
+    align-items: center;
+    justify-content: center;
+}
+
+//PAGE AGREGAR PRODUCTO//
+
+.btnAdmin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.formulario-agr-prod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+//BANNER//
+
+.banner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+//LOGIN PAGE//
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-btn {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+//PRODUCTOS//
+
+.productos{
+    display: flex;
+}
+
+.productos .productos-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.productos-descripcion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+//CONSOLAS
+
+.consolas{
+    display: flex;
+}
+
+.consolas .consolas-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.consolas .consolas-descripcion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+//PAGE LISTA DE PRODUCTOS//
+
+.productos-container-principal{
+    display: flex;
+    align-items: center;
+}
+
+.div-producto{
+    display: flex;
+}
+
+.detalles{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    text-align: justify;
+}
+
+//DIVERSOS//
+
+.diversos{
+    display: flex;
+}
+
+.diversos .diversos-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.diversos .diversos-descripcion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+//CONTACTO
+
+.menu-contacto{
+    display: flex;
+}
+.contacto .menu-contacto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-contacto-box{
+    display: flex;
+}
+
+.menu-contacto .menu-contacto-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.menu-contacto-box .menu-contacto-contenido{
+    display: flex;
+    
+}
+.menu-contacto-box .contacto-list{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+.contactanos{
+    display: flex;
+}
+
+.menu-contacto .contactanos{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+   
+}

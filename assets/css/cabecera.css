@@ -1,0 +1,60 @@
+.cabecera {
+    margin: 1rem auto;
+
+}
+
+.cabecera-logo{
+    width: 80%;
+}
+
+.cabecera-logo a{
+    text-decoration: none;
+    align-items: center;
+}
+
+.barra-de-busqueda {
+    width: 393px;
+    height: 40px;
+    margin-left: 5%;
+    font-size: 16px;
+    background: #F5F5F5;
+    border: none;
+    border-radius: 20px;
+}
+
+.icono-lupa {
+    position: relative;
+    left: -35px;
+    
+}
+
+.btn-login {
+    width: 182px;
+    height: 51px;
+    box-sizing: border-box;
+    border: 1px solid #2A7AE4;
+
+}
+
+.btn-login a {
+    text-decoration: none;
+    color: #2A7AE4;
+
+}
+
+#btnLogin {
+    width: 42px;
+    height: 19px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    background: #fff;
+}
+
+.btn-login:hover{
+    border: 2px solid #0073e6;
+
+}
+

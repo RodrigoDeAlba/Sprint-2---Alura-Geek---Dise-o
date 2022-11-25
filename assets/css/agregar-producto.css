@@ -1,0 +1,80 @@
+#btnAdmin {
+    width: 393px;
+    height: 40px;
+    
+    font-size: 16px;
+    background: #FFFFFF;
+    border: none;
+    
+}
+
+.formulario-agr-prod {
+    background: #E5E5E5;
+    padding: 91px 0;
+}
+
+.formulario-agr-prod-container {
+    text-align: left;
+}
+
+.tittle-agr-prod {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    padding-bottom: 15px;
+}
+
+.agregar-url-imagen-div {
+    background-image: url(../img/unsplash_0POwK6iAiRQ.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: calc(30vh + 72px);
+    margin-bottom: 1rem;
+}
+
+.input-img-label {
+    color: #FFFFFF;
+    background: #2A7AE4;
+    border-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 1rem;
+    width: 90%;
+    height: 50px;
+}
+
+
+.input-container-prod {
+    margin-top: 2rem;
+    padding: -6px 0;
+}
+
+.input-description {
+    padding-left: 10px;
+    
+    width: 413px;
+    height: 82px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.btn-agregar {
+    color: #FFFFFF;
+    padding-left: 10px;
+    margin-top: 14px;
+    width: 426px;
+    height: 63.13px;
+    background: #2A7AE4;
+    border-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}

@@ -1,0 +1,180 @@
+@media screen and (max-width:768px){
+    .container {
+        width: 81%;
+        margin: 0 auto;
+    }
+    .cabecera {
+        padding: 1px 5%;
+        align-items: center;
+        display: inline-flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    .cabecera-logo {
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        padding: 32px 5%;
+        
+    }
+    .cabecera-logo a {
+        display: flex;
+        flex-direction:row;
+        align-items: left;
+        padding: 32px 5%;
+        margin-left: -5%;
+        width: 35%;
+    }
+    .barra-de-busqueda {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 5%;
+    }
+    .btn-login {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 13px 5%;
+    }
+    .btn-login a {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    .banner {
+       width: 100%;
+    }
+
+    .banner-text {
+        padding: 32px 5%;
+    }
+
+    .productos-principal {
+        padding: 16px 5%;
+    }
+
+    .btn-todo{
+        padding: 16px 5%;
+        display: contents;
+    }
+
+    .productos-descripcion,
+    .consolas-descripcion,
+    .diversos-descripcion
+    {
+        flex-wrap: wrap;
+    }
+
+    .menu-contacto-box {
+        flex-direction: column;
+    }
+
+    .productos-container {
+        padding: 16px 5%;
+    }
+
+    .productos-container-principal {
+        padding: 16px 5%;
+    }
+
+    .div-producto {
+        display: flex;
+    }
+
+    .imagen-producto {
+        margin-left: -82px;
+        display: flex;
+        padding: 16px 5%;
+    }
+
+    .nombre-producto {
+        margin-left: -9%;
+    }
+    .precio-producto {
+        margin-left: -9%;
+    }
+    .descripcion-producto {
+        margin-left: -8%;
+        width: 90%
+
+    }
+
+}
+
+@media screen and (max-width:360px) {
+    .container {
+        width: 81%;
+        margin: 0 auto;
+    }
+    .cabecera {
+        padding: 1px 5%;
+        align-items: center;
+        display: inline-flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    .cabecera-logo {
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        padding: 32px 5%;
+        
+    }
+    .cabecera-logo a {
+        display: flex;
+        flex-direction:row;
+        padding: 7px 72%;
+        margin-left: -70%;
+        width: 35%;
+    }
+    .barra-de-busqueda {
+        display: none;
+    }
+    .btn-login {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 13px 5%;
+        
+        
+    }
+    .btn-login a {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    .input-container {
+        display: flex;
+        width: 300px;
+    }
+
+    .input {
+        display: flex;
+        width: 300px;
+    }
+
+    .login-btn {
+        display: flex;
+        width: 300px;
+    }
+
+    .banner-text {
+        padding: 32px 5%;
+    }
+
+    .banner-title {
+        margin-left: -7%;
+    }
+    
+}

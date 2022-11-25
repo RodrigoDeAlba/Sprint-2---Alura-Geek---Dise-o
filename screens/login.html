@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Alura Geek</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,300&family=Mukta:wght@300&family=Open+Sans:wght@300;400;700&family=Varela+Round&display=swap" rel="stylesheet" />
+        <link href="../assets/css/reset.css" rel="stylesheet" />
+        <link href="../assets/css/styles.css" rel="stylesheet" />
+        <link href="../assets/css/flexbox.css" rel="stylesheet" />
+        <link href="../assets/css/responsive.css" rel="stylesheet" />
+        <link href="../assets/css/cabecera.css" rel="stylesheet" />
+        <link href="../assets/css/login.css" rel="stylesheet" />
+        <link href="../assets/css/contacto.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <header class="cabecera container">
+            <div class="cabecera-logo">
+                <a href="../index.html">
+                <img src="../assets/img/Vector.png" alt="logo Geek">
+                <img src="../assets/img/Alura.png" alt="Alura">
+                <img src="../assets/img/Geek.png" alt="Geek">
+                </a>
+                <input class="barra-de-busqueda" type="text" placeholder=" ¿Qué deseas buscar?">
+                <img class="icono-lupa" src="../assets/img/Icone.png" alt="lupa">
+            </div>
+        </header>
+
+        <main class="formulario">
+            <form class="formulario-container">
+                <fieldset>
+                    <legend class="titulo-login">Iniciar sesión</legend>
+                    <div class="input-container">
+                        <input type="email" class="input" name="email" id="email" placeholder="Escriba su correo electrónico" required>
+                        <label class="input-label" for="email"></label> 
+                    </div>
+                    <div class="input-container">
+                        <input type="password" class="input" name="contraseña" id="contraseña" placeholder="Escriba su contraseña" required="" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&amp;*_=+-]).{6,12}$" title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales.">
+                        <label class="input-label" for="password"></label> 
+                    </div>
+                </fieldset>
+                <button class="login-btn" type="submit">Enviar</button>
+            </form>
+        </main>
+
+        <script></script>
+
+    </body>
+
+    <footer class="pie-de-pagina">
+
+        <section class="contacto">
+            <div class="menu-contacto">
+                <div class="menu-contacto-box">
+                    <div class="menu-contacto-contenido">
+                        <a href="../index.html">
+                        <img src="../assets/img/Vector.png" alt="logo Geek">
+                        <img src="../assets/img/Alura.png" alt="Alura">
+                        <img src="../assets/img/Geek.png" alt="Geek">
+                        </a> 
+                    </div>
+                    <ul class="contacto-list">
+                        <li class="contacto-list-link"><a class="contacto-list-link-url" href="#">Quienes somos</a></li>
+                        <li class="contacto-list-link"><a class="contacto-list-link-url" href="#">Política de privacidad</a></li>
+                        <li class="contacto-list-link"><a class="contacto-list-link-url" href="#">Programa de fidelidad</a></li>
+                        <li class="contacto-list-link"><a class="contacto-list-link-url" href="#">Nuestras Tiendas</a></li>
+                        <li class="contacto-list-link"><a class="contacto-list-link-url" href="#">Quiero ser franquiciado</a></li>
+                        <li class="contacto-list-link"><a class="contacto-list-link-url" href="#" >Anuncie aquí</a></li>
+                    </ul>
+                </div>
+                <div class="contactanos">
+                    <form class="contact-form">
+                    <fieldset>
+                        <legend class="title-contacto">Hable con nosotros</legend>
+                            <label for="nombre"></label>
+                            <input class="input-nombre" type="text" placeholder="Nombre" required data-tipo="nombre" pattern="[\s\S]{4,40}">
+                            <label for="mensaje"></label>
+                            <textarea class="input-mensaje" type="text" placeholder="Escribe tu mensaje" required data-tipo="mensaje" pattern="[\s\S]{5,120}"></textarea>
+                    </fieldset>
+                    <button class="btn-contacto">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <h6 class="pie-de-pagina-autor">Elaborado por Rodrigo De Alba Alvisua</h6>
+
+    </footer>
+
+</html>

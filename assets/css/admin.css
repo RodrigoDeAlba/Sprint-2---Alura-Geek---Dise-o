@@ -1,0 +1,35 @@
+
+.cuerpo-principal-admin {
+    background: #E5E5E5;
+}
+
+
+.productos-principal-todos {
+    
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tittle-todos-productos {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+
+.btn-todo-productos {
+    color: #FFFFFF;
+    width: 163px;
+    height: 51px;
+    background: #2A7AE4;
+    border-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
